@@ -160,7 +160,7 @@ public class UI_Login {
 	{
 Thread.sleep(2000); //esto es sólo para clave digita
 ingresar.click(); 
-	}  */
+	}   */
     
     //Si es el S7, clickeamos en el boton cancelar del mensaje que nos informa sobre la huella
     
