@@ -60,14 +60,14 @@ public class Config {
 	       ///// config para instalar la app en el dispositivo y utilizar esta para el proceso de testing
 	      //File file = new File("//Users//scotibank//Downloads//", "develop_2.5.0beta5_127.apk"); 
 	     //File file = new File("//Users//scotibank//Downloads//", "vtesting_2.5.0_130.apk"); 
-	       File file = new File("//Volumes//HD - Datos - Datos//APK//", "develop_2.4.3_137.apk" ); 
+		   File file = new File("/Users/ledier.hernandez/Library/CloudStorage/OneDrive-Perficient,Inc/Repositorios/ScotiaMovilRobotAndroid/app", "Scotiabank.apk" );
 	       //File file = new File("/Volumes/HD - Datos - Datos/APK/develop_2.4.3_137.apk"); 
 	      
 	       capabilities.setCapability("app", file.getAbsolutePath());  
 	        
 	        ///// config para abrir la app instalada en el dispositivo para el proceso de testing
-	       capabilities.setCapability("appPackage", "com.ingsw.scotiabankapp.develop");
-	       //capabilities.setCapability("appPackage", "com.ingsw.scotiabankapp.testing");
+	      // capabilities.setCapability("appPackage", "com.ingsw.scotiabankapp.develop");
+	       capabilities.setCapability("appPackage", "com.ingsw.scotiabankapp.testing");
 	       capabilities.setCapability("appActivity","com.ingsw.scotiabankapp.introduction.SplashActivity");	
 	      
 	 	  //mCurrentFocus=Window{3f266bcd0 u0 com.ibm.security.verifyapp/com.ibm.security.verifyapp.activities.WelcomeActivity}
